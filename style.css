@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Martel Sans', sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("images/main.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    position: relative;
+}
+
+.main .box {
+    height: 100%;
+    width: 100vw;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+
+}
+
+nav {
+    position: relative;
+    z-index: 10;
+    max-width: 75vw;
+    height: 87px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav button {
+    position: relative;
+    align-items: center;
+    z-index: 10;
+}
+
+nav select {
+    position: relative;
+    align-items: center;
+    z-index: 10;
+}
+
+.text {
+    position: relative;
+    padding: 0 30px;
+    text-align: center;
+    height: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 15px;
+
+
+}
+
+.text> :first-child {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.text> :nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text> :nth-child(3) {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sepration {
+    position: relative;
+    height: 6px;
+    background-color: rgb(50, 45, 45);
+    z-index: 10;
+}
+
+.btn {
+    padding: 0 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgba(245, 238, 238, 0.004);
+    font-size: 15px;
+    color: whitesmoke;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.btn-red-s {
+    padding: 2px 20px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 900;
+
+}
+
+.getstart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.input {
+    padding: 10px 120px 10px 2px;
+    border: 1px solid rgb(128, 128, 128);
+    background-color: rgba(20, 20, 20, 0.722);
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+
+}
+
+.btn-red-g {
+    padding: 7px 40px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.sec1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+    color: white;
+    gap: 50px;
+
+}
+
+.sectext1 {
+    font-size: 20px;
+}
+
+.sectext1 :first-child {
+
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.secimg1 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secimg1 img {
+    position: relative;
+    width: 656px;
+    z-index: 10;
+}
+
+.secimg1 video {
+    position: absolute;
+    top: 68px;
+    right: 91px;
+    padding: 34px 0;
+    /* z-index:10; */
+}
+
+.sec2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+    /* padding-bottom: 20px; */
+    color: white;
+    gap: 20px;
+
+}
+
+.sectext2 {
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectext2 :first-child {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.secimg2 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.secimg2 .img1 {
+    position: relative;
+    width: 40vw;
+
+
+}
+
+.secimg2 .img2 {
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    width: 100px
+}
+
+.sec3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    gap: 60px;
+
+}
+
+.sectext3 {
+    font-size: 20px;
+}
+
+.sectext3 :first-child {
+
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.secimg3 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secimg3 img {
+    position: relative;
+    width: 650px;
+    z-index: 10;
+}
+
+.secimg3 video {
+    position: absolute;
+    width: 400px;
+    top: 11px;
+    right: 130px;
+    padding: 30px 0;
+    /* z-index:10; */
+}
+
+.sec4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90vw;
+    margin: auto;
+    padding-bottom: 20px;
+    color: white;
+    gap: 40px;
+
+}
+
+.sectext4 {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectext4 :first-child {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.secimg4 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.faq {
+
+    margin: auto;
+    width: 90vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+}
+
+.faq h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+.faqdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+    font-size: 25px;
+    background-color: rgb(49, 47, 47);
+    border: 1px solid black;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+footer {
+    width: 90vw;
+    color: white;
+    padding: 50px;
+    margin: auto;
+}
+
+.getstarted2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    padding-bottom: 20px;
+
+}
+
+.call {
+    margin: auto;
+    width: 90vw;
+    padding-bottom: 20px;
+}
+
+.col {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.col a {
+    padding: 10px;
+    color: white;
+}
+
+.col :hover {
+    color: red;
+}
+
+.lastlabel {
+    padding: 20px;
+}
+
+@media screen and(min-width <=1076px) {}
